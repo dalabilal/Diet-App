@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.login-page {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    gap: 140px;
+    position: relative;
+  }
+  .login-page .welcome {
+     width: 400px;
+     height: 40px;
+     position: absolute;
+     color: #c8ddee;
+     top: 90px;
+     left: 900px;
+     font-weight: 400;
+     font-size: 50px;
+     font-family:Courgette;
+  }
+
+  .login-page>form {
+    height: 500px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    background-color: #c8ddee;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 60px 40px;
+  }
+  
+  .login-page img {
+    height: 700px;
+  }
+  .login-page>form>h3 {
+    font-size: 28px;
+    color: rgb(17, 48, 69);
+    line-height: 1.2;  
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .login-page .Login-submit > input {
+    width: 70px;
+    border: #c8ddee;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(17, 48, 69);
+    color: #c8ddee;
+  }
+  

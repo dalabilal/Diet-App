@@ -1,0 +1,19 @@
+table {
+    width: 1300px;
+    /* border-collapse: collapse; */
+  
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+    color: rgb(244, 242, 242);
+}
+
+th {
+    text-align: center;
+    padding: 20px;
+    background-color: #c8ddee;
+    color: rgb(17 48 69 / 92%);
+    border-radius: 50px;
+}

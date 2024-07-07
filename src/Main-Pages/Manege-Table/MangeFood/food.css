@@ -1,0 +1,22 @@
+.food {
+    color: aliceblue;
+    padding: 50px;
+    gap: 30px;
+    height: 100%;
+}
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    width: 1270px;
+    padding: 20px;
+}
+.button-group button {
+    border-radius: 25px;
+    width: 125px;
+    font-size: 17px;
+    background-color: #c8ddee;
+    border: #c8ddee;
+    margin-left: 400px;
+    padding: 10px;
+    color: rgb(17 48 69 / 92%);
+}

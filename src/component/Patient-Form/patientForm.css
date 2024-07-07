@@ -1,0 +1,34 @@
+ .patient-info {
+   width: 80%;
+   height: 257px;
+   background-color: #aec9df;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+   position: absolute;
+   left: 130px;
+ }
+
+ .patient-info .info-title {
+   padding-top: 15px;
+   color: rgb(21, 45, 62);
+   position: absolute;
+   width: 170px;
+   font-size: large;
+   font-weight: 500;
+   top: 0;
+ }
+
+ .patient-info .info {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 7px;
+   padding-left: 79px;
+ }
+
+ .patient-info .info .input-group input {
+   margin-top: 20px;
+
+ }

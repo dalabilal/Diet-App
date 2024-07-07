@@ -1,0 +1,125 @@
+.home .img2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.home .img2 > img {
+    width: 100%;
+    height: 800px;
+    opacity: 0.9;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home > span {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    height: 90%;
+    padding: 20px;
+    margin-right: 900px;
+}
+
+.home .circle {
+    position: absolute;
+    border: 1px solid rgb(17, 48, 69);
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+    margin-top: 34px;
+    margin-left: 412px;
+    width: 240px;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17 48 69 / 92%);
+    color: aliceblue;
+    cursor: pointer;
+    padding: 7px 20px;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.home .circle1 {
+    position: absolute;
+    border: 1px solid rgb(17, 48, 69);
+    box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+    border-radius: 50% 20% / 10% 40%;
+    margin-top: 261px;
+    margin-left: 830px;
+    width: 240px;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17 48 69 / 92%);
+    color: aliceblue;
+    cursor: pointer;
+    padding: 7px 20px;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.home .circle2 {
+    position: absolute;
+    box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+    border: 1px solid rgb(17, 48, 69);
+    border-radius: 50% 20% / 10% 40%;
+    margin-top: 498px;
+    margin-left: 412px;
+    width: 240px;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17 48 69 / 92%);
+    color: aliceblue;
+    cursor: pointer;
+    padding: 7px 20px;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+.home .circle2:hover {
+  box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+  transform: scale(1.15) rotate(-1deg);
+  background-color: rgb(17, 48, 69);
+}
+.home .circle1:hover {
+    box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+  transform: scale(1.15) rotate(-1deg);
+  background-color: rgb(17, 48, 69);
+}
+.home .circle:hover {
+    box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+  transform: scale(1.15) rotate(-1deg);
+  background-color: rgb(17, 48, 69);
+}

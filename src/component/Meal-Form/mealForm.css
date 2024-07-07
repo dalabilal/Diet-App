@@ -1,0 +1,104 @@
+.meal-group {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17 48 69 / 67%);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.meal-group .mealForm {
+  width: 461px;
+  border-radius: 50px;
+  height: 394px;
+  background-color: #aec9df;
+  border: 2px solid #aec9df;
+  color: rgb(17, 48, 69);
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-group .mealForm .header {
+  width: 461px;
+  height: 100px;
+  position: relative;
+}
+
+.meal-group .mealForm .header h1 {
+  position: absolute;
+  margin: 0;
+  top: -8px;
+  left: 574px;
+}
+
+.meal-group .mealForm .header h2 {
+  position: absolute;
+  top: -9px;
+  left: 170px;
+}
+
+.meal-group .mealForm .meal-content {
+  width: 500px;
+  padding: 30px;
+  gap: 50px;
+  position: relative;
+}
+
+.meal-group .mealForm .meal-content .meal-info{
+  border-radius: 15px;
+  position: absolute;
+  left: 87px;
+  top: -32px;
+}
+
+.meal-group .mealForm .meal-content img {
+  border-radius: 15px;
+  position: absolute;
+  left: 29px;
+  height: 108px;
+  width: 110px;
+  top: 121px;
+}
+
+.meal-group .mealForm .meal-content .image-total .total {
+  border-radius: 15px;
+  position: absolute;
+  font-weight: 500;
+  width: 110px;
+  left: 173px;
+  height: 70px;
+  top: 126px;
+}
+
+.meal-group .mealForm .meal-content .group-button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  gap: 10px;
+  top: 226px;
+  left: 233px;
+}
+
+.meal-group .mealForm .meal-content  .group-button .submit {
+  width: 93px;
+  border: #c8ddee;
+  border-radius: 7px;
+  padding: 7px;
+  background-color: rgb(17, 48, 69);
+  color: #c8ddee;
+}
+
+.meal-group .mealForm .meal-content .group-button  .cancel {
+  width: 93px;
+  border: #c8ddee;
+  border-radius: 7px;
+  padding: 7px;
+  background-color: rgb(17, 48, 69);
+  color: #c8ddee;
+}

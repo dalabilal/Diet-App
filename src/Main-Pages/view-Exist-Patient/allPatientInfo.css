@@ -1,0 +1,23 @@
+.patientTable table th {
+    /* border: 1px solid white; */
+    border-radius: 50px;
+}
+
+.patientTable table {
+    color: aliceblue;
+}
+
+.patientTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    position: relative;
+}
+.patientTable .search{
+  position: absolute;
+  top: 10px;
+  left: 50px;  
+  display: flex;
+  gap: 10px;
+}

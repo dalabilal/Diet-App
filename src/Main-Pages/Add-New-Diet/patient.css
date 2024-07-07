@@ -1,0 +1,40 @@
+.patient {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.patient .save-button button {
+    background-color: #aec9df;
+    color: rgb(17, 48, 69);
+    border-radius: 15px;
+    position: absolute;
+    border: #c8ddee;
+    padding: 10px;
+    width: 150px;
+    right: 220px;
+    top: 0;
+}
+
+.patient .save-button>.rest {
+    background-color: #aec9df;
+    color: rgb(17, 48, 69);
+    border-radius: 15px;
+    position: absolute;
+    border: #c8ddee;
+    padding: 10px;
+    width: 150px;
+    right: 394px;
+    top: 0;
+
+}
+
+.patient .save-button button:hover {
+    background-color: #a8c3d8;
+    color: rgb(53, 119, 163);
+}

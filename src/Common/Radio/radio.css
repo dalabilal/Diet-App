@@ -1,0 +1,13 @@
+.radio-group {
+  display: inline;
+  background-color: #aec9df;
+}
+
+.radio-group label {
+  color: rgb(243, 239, 239);
+  width: 100px;
+}
+
+.radio-group input:checked::after {
+  background-color: rgb(110, 191, 213);
+}

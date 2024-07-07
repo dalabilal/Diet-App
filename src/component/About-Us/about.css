@@ -1,0 +1,12 @@
+.About {
+    width: 80%;
+    height: 400px;
+    background-color: #c8ddee;
+    margin-bottom: 20px;
+    display: flex ;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center ;
+    gap: 20px;
+}
+

@@ -1,0 +1,120 @@
+.patient .patient-schedual {
+    background-color: rgb(17, 48, 69);
+    border: 2px solid rgb(17, 48, 69);
+    border-radius: 50px;
+    height: 352px;
+    width: 80%;
+    position: absolute;
+    left: 130px;
+    top: 390px;
+}
+
+.patient .patient-schedual .total-cal{
+    position: absolute;
+    border: 1px solid rgb(17, 48, 69);
+    border-radius: 50% 30% 50% 3%;
+    box-shadow: rgb(19, 29, 45) 0 -25px 18px -14px inset,rgb(19, 29, 45) 0 1px 2px,rgb(19, 29, 45) 0 2px 4px,rgb(19, 29, 45) 0 4px 8px,rgb(19, 29, 45) 0 8px 16px,rgb(19, 29, 45)0 16px 32px;
+    margin-top: 34px;
+    margin-left: 412px;
+    width: 240px;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 48, 69);
+    color: rgb(232, 238, 242);   
+    padding: 7px 20px;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    left: 690px;
+    top: -130px;
+}
+
+.patient .patient-schedual .tab {
+    width: 100%;
+}
+
+.patient .patient-schedual .tab-page {
+    background-color: #aec9df;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    width: 87%;
+}
+
+.patient-schedual .tab {
+    display: flex;
+    justify-content: center;
+}
+
+.patient-schedual .tab button {
+    background-color: rgb(17, 48, 69);
+    transition: all 0.5s ease-out;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 8px 51px 11px 40px;
+    color: rgb(171, 210, 235);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.patient-schedual .tab button:hover {
+    background-color: rgba(175, 209, 231, 0.705);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.patient-schedual .tab button:disabled {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #aec9df;
+    color: white;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.tab-page {
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.tab-page,
+button {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 50px 0;
+}
+
+footer a {
+    color: #999999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
